@@ -1,0 +1,1 @@
+//$(".single_add_to_cart_button").attr({"style":"background-color: red;"});

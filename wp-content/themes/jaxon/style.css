@@ -1,0 +1,245 @@
+/*
+Theme Name:     Jaxon
+Theme URI:      https://themeisle.com/themes/jaxon/
+Author:         ThemeIsle
+Author URI:     https://themeisle.com
+Tested up to:   6.1
+Requires PHP:   7.0
+Requires at least: 5.5
+Description:    Jaxon is a contemporary, minimalistic theme that fully supports full-site-editing. Its versatility makes it suitable for a variety of purposes such as blogs, small businesses, startups, agencies, firms, e-commerce shops, personal portfolio sites, and more. It includes a selection of design patterns and multiple style options. 
+Version:        1.0.1
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    jaxon
+WordPress Available:  yes
+Requires License:     no
+Tags: one-column, custom-colors, custom-menu, custom-logo, e-commerce, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+*/
+.wp-block-create-block-example-dynamic {
+	background-color: #c0d3db;
+	color: #fff;
+	padding: 2px;
+	
+}
+
+.item1 { grid-area: parent; width:220px; height: 400px;}
+.item2 { grid-area: child; width:660px; height: 400px;}
+.item3 { grid-area: ad1; width:220px;}
+.item4 { grid-area: ad2; width:220px;}
+.sub_cat{
+	column-count: 3;
+}
+.wp-block-create-block-example-dynamic {
+	margin:20px 70px 20px 70px;
+	display: grid;
+	grid-template-areas:
+	'parent child child child ad1'
+	'parent child child child ad2';
+	gap: 10px;
+	background-color: transparent;
+	padding: 10px;
+}
+
+.wp-block-create-block-example-dynamic > div {
+	background-color: rgba(255, 255, 255);
+	text-align: left;
+	font-size: 13px;
+}
+.parent_cat{
+  margin:6px;
+}
+
+.cat_link{
+	text-decoration: none;
+}
+
+.cat_link:hover{
+	text-decoration: none;
+  color:orange;
+}
+
+.cat_grand_child{
+  color:rgb(114, 114, 114);
+}
+
+.cat_grand_child:hover{
+  color:black;
+  font-weight: bold;
+}
+
+.cat_link:hover path{
+	fill:orange;
+}
+
+.cat_link svg{
+  width: 20px;
+  height: 20px;
+}
+/*styles of slider:*/
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover{
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/* end styles of slider*/
+
+.first_child{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+.dot_container{
+  text-align: center;
+  position: relative;
+  /*top: -20px;*/
+}
+
+
+
+
+.image_div:hover {
+	border-style: ridge;
+}
+.image_a{
+	text-decoration: none;
+}
+.image_a img{
+	width: 223.5px !important;
+	height: 223.5px !important;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #ffffff;
+	padding: 10px;
+  }
+  .grid-item {
+	background-color: rgb(255, 255, 255);
+	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+	padding: 20px;
+	font-size: 15px;
+	text-align: left;
+  }
+
+.add_to_cart_button {
+	text-decoration: none;
+	background-color: #f68b1e;
+	color:white;
+	text-align: center;
+	padding: 12px 25% 12px 25%;
+}
+.add_to_cart_button:hover {
+	background-color: #8b4e11;
+}
+.day
+{
+	background-color:red ;
+}
+.single_add_to_cart_button {
+background-color: #E07E1B !important;
+width: 450px;
+}
+.product_title {
+	font-size: x-large ;
+}
+.woocommerce-Price-amount {
+	color: black;
+}
+.stock {
+color: gray !important;
+}
+.onsale{
+	display: none;
+}
+.button{
+	background-color: #E07E1B !important;
+	color: white !important;
+}
+.woocommerce-loop-product__title{
+	font-size: small;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 200px; 
+  height: 2em; 
+  white-space: nowrap;
+}
+.qty{
+	position: relative !important;
+}
+.wp-block-button__link{
+	background-color: #E07E1B !important;
+}
+.wc-block-grid__product-title{
+	font-size: small;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 200px; 
+  height: 2em; 
+  white-space: nowrap;
+}
+.wc-block-grid__product{
+	border:1px solid ;
+	border-color:#fafafa;
+}
+.wp-block-navigation-item__label{
+	color:black;
+}
