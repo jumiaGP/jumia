@@ -1,12 +1,12 @@
 # jumia
-website : http://www.jumia.lovestoblog.com
-presentation :https://docs.google.com/presentation/d/1ydPFCGo4iJ-5DjA8tE_-m533j6ON_W2a/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true
-documntation:https://drive.google.com/file/d/1yGOf_71IMaaaJPdhq-6Dj9C3DvkpdKO2/view?usp=sharing
-seo :https://docs.google.com/spreadsheets/d/1nFAosPxyOQ9DfqBl1wZ0yQnooC4um_I1/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true
-demo1 :https://docs.google.com/spreadsheets/d/1nFAosPxyOQ9DfqBl1wZ0yQnooC4um_I1/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true
-demo2 :https://drive.google.com/file/d/1j9vnRHfKj3dxXMYQZFBoCZpXwfxdbysg/view?usp=sharing
-demo as vendor:https://drive.google.com/file/d/1y4eR7AKMIPrCUrtEIyOXG8qY6EtaataS/view?usp=sharing
-demo footer page:https://drive.google.com/file/d/1QNMDppVbQhEJM4VSqoStEgh-IFMhI7Pc/view?usp=sharing
+# website : http://www.jumia.lovestoblog.com .
+# Presentation :https://docs.google.com/presentation/d/1ydPFCGo4iJ-5DjA8tE_-m533j6ON_W2a/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true .
+# Documentation:https://drive.google.com/file/d/1yGOf_71IMaaaJPdhq-6Dj9C3DvkpdKO2/view?usp=sharing .
+# seo :https://docs.google.com/spreadsheets/d/1nFAosPxyOQ9DfqBl1wZ0yQnooC4um_I1/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true .
+# demo1 :https://docs.google.com/spreadsheets/d/1nFAosPxyOQ9DfqBl1wZ0yQnooC4um_I1/edit?usp=sharing&ouid=113487892293976536907&rtpof=true&sd=true .
+# demo2 :https://drive.google.com/file/d/1j9vnRHfKj3dxXMYQZFBoCZpXwfxdbysg/view?usp=sharing .
+# demo as vendor:https://drive.google.com/file/d/1y4eR7AKMIPrCUrtEIyOXG8qY6EtaataS/view?usp=sharing .
+# demo footer page:https://drive.google.com/file/d/1QNMDppVbQhEJM4VSqoStEgh-IFMhI7Pc/view?usp=sharing .
 Hi. I'm a starter theme called jaxon,if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
